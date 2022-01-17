@@ -5,9 +5,9 @@ The `range()` method just merely genrates an arithmatic progression. It inherent
 range(begin_with, go_until, common_difference )
 ```
 ## Deep copy vs Shallow copy 
--A shallow copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original.
+- A shallow copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original.
 
--A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+- A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
 
 ## `else` in loops 
 The `break` statement, like in C, breaks out of the innermost enclosing `for` or `while` loop.
@@ -39,3 +39,7 @@ def http_error(status):
         case _:
             return "Something's wrong with the internet"
 ```
+## Functions and procedures 
+Generally functional block of code without a `return` statement is called a *procedure* and with one is called a *function*. 
+
+But,, in python, even functions without a `return` statement do return a value, albeit a rather boring one. This value is called `None` (it’s a built-in name). Writing the value `None` is normally suppressed by the interpreter if it would be the only value written.
