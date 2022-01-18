@@ -106,5 +106,9 @@ print(y) # 'world'
 print(z) # 'hola' 
 ```
 
-## The Walrus Opearator 
+## The Walrus Opearator `:=`
 Basically overglorified assignment operator for expressions that was added with v3.8
+
+## Executing modules as scripts 
+Interetsting read: https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts
+ 
