@@ -106,8 +106,15 @@ print(y) # 'world'
 print(z) # 'hola' 
 ```
 
-## The Walrus Opearator `:=` 🦭
+## The Walrus 🦭 Opearator `:=` 
 Basically overglorified assignment operator for expressions that was added with v3.8
 
 ## Executing modules as scripts 
 Interetsting read: https://docs.python.org/3/tutorial/modules.html#executing-modules-as-scripts
+
+## Errors and Exxceptions 
+Read through when needed: https://docs.python.org/3/tutorial/errors.html
+Basically -> 
+- `SyntaxError`: When you type some shit code and the interpreter detects it 
+- `Exeption`: Detected when your code actually runs. Stuff like `ZeroDivisionError`, `TypeError`. You can program your scrip to handle and raise exceptions. 
+- 
