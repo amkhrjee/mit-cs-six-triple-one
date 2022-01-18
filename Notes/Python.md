@@ -94,3 +94,14 @@ or we can do:
 squares(x**2 for x in range(10))
 ```
 Both of these ways are good for avoiding side effects as in the first method we are overwriting the vaiable `x`, and even after the loop ends, the variable still exists! 
+
+> Read: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+
+## Tuple Unpacking 📤
+```py 
+myTuple = 'hello', 'world', 'hola' #packing
+x, y, z = myTuple #unpacking 
+print(x) # 'hello' 
+print(y) # 'world' 
+print(z) # 'hola' 
+```
