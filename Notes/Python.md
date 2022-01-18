@@ -74,3 +74,23 @@ def f(a, L=None):
     L.append(a)
     return L
 ```
+## Some λ-Calculus with python! 
+
+Let's say we want to make a list of squares. We can do it like this: 
+```py 
+squares = []
+for x in range(10): 
+    squares.append(x**2)
+print(squares) 
+```
+But this is a rather noob way of doing what can be elegantly done with some λ-calculus! 
+The function expression for a square would be -> `λ x.x^2`
+So we can rewite the above piece of code like this: 
+```py
+squares(map(lambda x:x**2, range(10))) 
+```
+or we can do: 
+```py 
+squares(x**2 for x in range(10))
+```
+Both of these ways are good for avoiding side effects as in the first method we are overwriting the vaiable `x`, and even after the loop ends, the variable still exists! 
